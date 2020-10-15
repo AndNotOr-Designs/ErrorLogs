@@ -45,21 +45,40 @@ PermissionError: [Errno 13] Permission denied
 -----------------
 
 Starting Mu 1.0.1
-2020-10-15 08:09:16,919 - root:113(run) INFO: uname_result(system='Linux', node='ProximaCentauri', release='5.4.0-48-generic', version='#52-Ubuntu SMP Thu Sep 10 10:58:49 UTC 2020', machine='x86_64', processor='x86_64')
-2020-10-15 08:09:16,919 - root:114(run) INFO: Python path: ['/snap/mu-editor/4/bin', '/snap/mu-editor/4/usr/lib/python35.zip', '/snap/mu-editor/4/usr/lib/python3.5', '/snap/mu-editor/4/usr/lib/python3.5/plat-x86_64-linux-gnu', '/snap/mu-editor/4/usr/lib/python3.5/lib-dynload', '/snap/mu-editor/4/usr/lib/python3/dist-packages', '/snap/mu-editor/4/lib/python3.5/site-packages', '/snap/mu-editor/4/lib/python3.5/site-packages/IPython/extensions']
-2020-10-15 08:09:16,919 - root:115(run) INFO: Language code: en_US
-2020-10-15 08:09:16,976 - mu.logic:540(__init__) INFO: Setting up editor.
-2020-10-15 08:09:16,976 - mu.logic:558(__init__) INFO: Settings path: /home/travis/snap/mu-editor/4/.local/share/mu/settings.json
-2020-10-15 08:09:16,976 - mu.logic:559(__init__) INFO: Session path: /home/travis/snap/mu-editor/4/.local/share/mu/session.json
-2020-10-15 08:09:16,976 - mu.logic:560(__init__) INFO: Log directory: /home/travis/snap/mu-editor/common/.cache/mu/log
-2020-10-15 08:09:16,976 - mu.logic:561(__init__) INFO: Data directory: /home/travis/snap/mu-editor/4/.local/share/mu
-2020-10-15 08:09:16,989 - mu.logic:574(setup) INFO: Available modes: debugger, microbit, adafruit, python, pygamezero
-2020-10-15 08:09:17,057 - mu.logic:1112(change_mode) INFO: Workspace directory: /home/travis/snap/mu-editor/4/mu_code
-2020-10-15 08:09:17,057 - mu.logic:623(restore_session) INFO: Restoring session from: /home/travis/snap/mu-editor/4/.local/share/mu/session.json
-2020-10-15 08:09:17,058 - mu.logic:624(restore_session) DEBUG: {'paths': [], 'theme': 'day', 'envars': [], 'microbit_runtime': '', 'mode': 'python', 'minify': False}
-2020-10-15 08:09:17,058 - mu.logic:645(restore_session) INFO: Loaded files.
-2020-10-15 08:09:17,058 - mu.logic:649(restore_session) INFO: User defined environment variables: []
-2020-10-15 08:09:17,058 - mu.logic:653(restore_session) INFO: Minify scripts on micro:bit? False
-2020-10-15 08:09:17,199 - mu.logic:673(restore_session) INFO: Starting with blank file.
-2020-10-15 08:09:17,215 - mu.logic:1112(change_mode) INFO: Workspace directory: /home/travis/snap/mu-editor/4/mu_code
-2020-10-15 08:09:19,578 - mu.logic:1039(show_admin) INFO: Showing logs from /home/travis/snap/mu-editor/common/.cache/mu/log/mu.log
+2020-10-15 08:47:32,411 - root:113(run) INFO: uname_result(system='Linux', node='ProximaCentauri', release='5.4.0-48-generic', version='#52-Ubuntu SMP Thu Sep 10 10:58:49 UTC 2020', machine='x86_64', processor='x86_64')
+2020-10-15 08:47:32,411 - root:114(run) INFO: Python path: ['/snap/mu-editor/4/bin', '/snap/mu-editor/4/usr/lib/python35.zip', '/snap/mu-editor/4/usr/lib/python3.5', '/snap/mu-editor/4/usr/lib/python3.5/plat-x86_64-linux-gnu', '/snap/mu-editor/4/usr/lib/python3.5/lib-dynload', '/snap/mu-editor/4/usr/lib/python3/dist-packages', '/snap/mu-editor/4/lib/python3.5/site-packages', '/snap/mu-editor/4/lib/python3.5/site-packages/IPython/extensions']
+2020-10-15 08:47:32,411 - root:115(run) INFO: Language code: en_US
+2020-10-15 08:47:32,475 - mu.logic:540(__init__) INFO: Setting up editor.
+2020-10-15 08:47:32,475 - mu.logic:558(__init__) INFO: Settings path: /home/travis/snap/mu-editor/4/.local/share/mu/settings.json
+2020-10-15 08:47:32,476 - mu.logic:559(__init__) INFO: Session path: /home/travis/snap/mu-editor/4/.local/share/mu/session.json
+2020-10-15 08:47:32,476 - mu.logic:560(__init__) INFO: Log directory: /home/travis/snap/mu-editor/common/.cache/mu/log
+2020-10-15 08:47:32,476 - mu.logic:561(__init__) INFO: Data directory: /home/travis/snap/mu-editor/4/.local/share/mu
+2020-10-15 08:47:32,490 - mu.logic:574(setup) INFO: Available modes: adafruit, microbit, debugger, python, pygamezero
+2020-10-15 08:47:32,555 - mu.logic:1112(change_mode) INFO: Workspace directory: /home/travis/snap/mu-editor/4/mu_code
+2020-10-15 08:47:32,555 - mu.logic:623(restore_session) INFO: Restoring session from: /home/travis/snap/mu-editor/4/.local/share/mu/session.json
+2020-10-15 08:47:32,555 - mu.logic:624(restore_session) DEBUG: {'mode': 'python', 'envars': [], 'minify': False, 'paths': [], 'theme': 'day', 'microbit_runtime': ''}
+2020-10-15 08:47:32,556 - mu.logic:645(restore_session) INFO: Loaded files.
+2020-10-15 08:47:32,556 - mu.logic:649(restore_session) INFO: User defined environment variables: []
+2020-10-15 08:47:32,556 - mu.logic:653(restore_session) INFO: Minify scripts on micro:bit? False
+2020-10-15 08:47:32,698 - mu.logic:673(restore_session) INFO: Starting with blank file.
+2020-10-15 08:47:32,714 - mu.logic:1112(change_mode) INFO: Workspace directory: /home/travis/snap/mu-editor/4/mu_code
+2020-10-15 08:47:34,383 - mu.logic:1069(select_mode) INFO: Showing available modes: ['adafruit', 'microbit', 'debugger', 'python', 'pygamezero']
+2020-10-15 08:47:38,299 - mu.logic:1074(select_mode) INFO: New mode selected: adafruit
+2020-10-15 08:47:38,324 - root:95(excepthook) ERROR: Unrecoverable error
+Traceback (most recent call last):
+  File "/snap/mu-editor/4/lib/python3.5/site-packages/mu/logic.py", line 1075, in select_mode
+    self.change_mode(new_mode)
+  File "/snap/mu-editor/4/lib/python3.5/site-packages/mu/logic.py", line 1112, in change_mode
+    self.modes[mode].workspace_dir()))
+  File "/snap/mu-editor/4/lib/python3.5/site-packages/mu/modes/adafruit.py", line 98, in workspace_dir
+    mount_output = check_output(mount_command).splitlines()
+  File "/snap/mu-editor/4/usr/lib/python3.5/subprocess.py", line 626, in check_output
+    **kwargs).stdout
+  File "/snap/mu-editor/4/usr/lib/python3.5/subprocess.py", line 693, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/snap/mu-editor/4/usr/lib/python3.5/subprocess.py", line 947, in __init__
+    restore_signals, start_new_session)
+  File "/snap/mu-editor/4/usr/lib/python3.5/subprocess.py", line 1551, in _execute_child
+    raise child_exception_type(errno_num, err_msg)
+PermissionError: [Errno 13] Permission denied
+2020-10-15 08:47:43,962 - root:112(run) INFO: 
